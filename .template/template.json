@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Thomas Wright",
+  "classifications": [
+    "Services"
+  ],
+  "name": "Thomas Wright - Service Template",
+  "description": "A template for creating a new service",
+  "sourceName": "ThomasWright.ServiceTemplate",
+  "preferNameDirectory": true,
+  "identity": "ThomasWright.ServiceTemplate",
+  "tags": [
+    "Service",
+    "Template"
+  ],
+  "shortName": "tw-svc-template"
+}

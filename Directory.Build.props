@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <RootNamespace>
+            ThomasWright.ServiceTemplate
+        </RootNamespace>
+    </PropertyGroup>
+</Project>

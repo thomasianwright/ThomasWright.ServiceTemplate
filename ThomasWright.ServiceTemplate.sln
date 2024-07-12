@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{21894E2B-AEB9-4F0C-876B-40038BEEE186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{97180A21-1D15-4CEA-A23F-2EF163641650}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{B2648425-A92A-471B-A128-AF949C31A2A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{A6C9CCC1-C55A-4C29-BA12-42D4DB2C8213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{968EA53C-B834-41DE-AC8F-B141F2958CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{D86DD7F5-3184-4BAB-9269-37CA20409F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Api", "source\api\ThomasWright.ServiceTemplate.Api\ThomasWright.ServiceTemplate.Api.csproj", "{A85EC469-E248-49AD-8693-DF16E442DECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Application", "source\application\ThomasWright.ServiceTemplate.Application\ThomasWright.ServiceTemplate.Application.csproj", "{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Core", "source\core\ThomasWright.ServiceTemplate.Core\ThomasWright.ServiceTemplate.Core.csproj", "{72DDD080-A4D8-4098-861D-F020D5122B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Abstractions", "source\core\ThomasWright.ServiceTemplate.Abstractions\ThomasWright.ServiceTemplate.Abstractions.csproj", "{C4A3624E-3730-4D66-A06A-FBC51817A0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Infrastructure", "source\infrastructure\ThomasWright.ServiceTemplate.Infrastructure\ThomasWright.ServiceTemplate.Infrastructure.csproj", "{5C28522D-976D-4F7D-88A0-02C0416A4EA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F03C9501-AC6A-4C1D-8B43-A164A57AC508}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template", ".template", "{0B084293-6C3F-4D4F-9DDF-4EBCF0C044B9}"
+	ProjectSection(SolutionItems) = preProject
+		.template\template.json = .template\template.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{B40FE78F-2100-41E1-A62D-EEE90E9A4EDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{7256FD42-2D89-478D-9F1E-622F5ABEB106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{FEAD0BC4-664B-4CA6-B5EF-D59AEA614F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{9F067853-F2DC-4DDE-8B92-A706F7BE3F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Api.Tests", "tests\api\ThomasWright.ServiceTemplate.Api.Tests\ThomasWright.ServiceTemplate.Api.Tests.csproj", "{9B727A74-2394-40EE-B487-86927D8543BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Application.Tests", "tests\application\ThomasWright.ServiceTemplate.Application.Tests\ThomasWright.ServiceTemplate.Application.Tests.csproj", "{282A06A9-18C9-46B0-8069-857162FB9143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Core.Tests", "tests\core\ThomasWright.ServiceTemplate.Core.Tests\ThomasWright.ServiceTemplate.Core.Tests.csproj", "{05510167-AB3C-45AC-8A9E-2CC65B21ED93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThomasWright.ServiceTemplate.Infrastructure.Tests", "tests\infrastructure\ThomasWright.ServiceTemplate.Infrastructure.Tests\ThomasWright.ServiceTemplate.Infrastructure.Tests.csproj", "{14444C6B-C447-43F7-A7F1-AE10CC8E148F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2648425-A92A-471B-A128-AF949C31A2A8} = {21894E2B-AEB9-4F0C-876B-40038BEEE186}
+		{A6C9CCC1-C55A-4C29-BA12-42D4DB2C8213} = {21894E2B-AEB9-4F0C-876B-40038BEEE186}
+		{968EA53C-B834-41DE-AC8F-B141F2958CDF} = {21894E2B-AEB9-4F0C-876B-40038BEEE186}
+		{D86DD7F5-3184-4BAB-9269-37CA20409F58} = {21894E2B-AEB9-4F0C-876B-40038BEEE186}
+		{A85EC469-E248-49AD-8693-DF16E442DECB} = {D86DD7F5-3184-4BAB-9269-37CA20409F58}
+		{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6} = {A6C9CCC1-C55A-4C29-BA12-42D4DB2C8213}
+		{72DDD080-A4D8-4098-861D-F020D5122B36} = {B2648425-A92A-471B-A128-AF949C31A2A8}
+		{C4A3624E-3730-4D66-A06A-FBC51817A0DE} = {B2648425-A92A-471B-A128-AF949C31A2A8}
+		{5C28522D-976D-4F7D-88A0-02C0416A4EA1} = {968EA53C-B834-41DE-AC8F-B141F2958CDF}
+		{B40FE78F-2100-41E1-A62D-EEE90E9A4EDC} = {97180A21-1D15-4CEA-A23F-2EF163641650}
+		{7256FD42-2D89-478D-9F1E-622F5ABEB106} = {97180A21-1D15-4CEA-A23F-2EF163641650}
+		{FEAD0BC4-664B-4CA6-B5EF-D59AEA614F9A} = {97180A21-1D15-4CEA-A23F-2EF163641650}
+		{9F067853-F2DC-4DDE-8B92-A706F7BE3F12} = {97180A21-1D15-4CEA-A23F-2EF163641650}
+		{9B727A74-2394-40EE-B487-86927D8543BA} = {7256FD42-2D89-478D-9F1E-622F5ABEB106}
+		{282A06A9-18C9-46B0-8069-857162FB9143} = {B40FE78F-2100-41E1-A62D-EEE90E9A4EDC}
+		{05510167-AB3C-45AC-8A9E-2CC65B21ED93} = {FEAD0BC4-664B-4CA6-B5EF-D59AEA614F9A}
+		{14444C6B-C447-43F7-A7F1-AE10CC8E148F} = {9F067853-F2DC-4DDE-8B92-A706F7BE3F12}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A85EC469-E248-49AD-8693-DF16E442DECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85EC469-E248-49AD-8693-DF16E442DECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85EC469-E248-49AD-8693-DF16E442DECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85EC469-E248-49AD-8693-DF16E442DECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEDC79A-C771-4A6A-907E-C07A0B1FC6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72DDD080-A4D8-4098-861D-F020D5122B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DDD080-A4D8-4098-861D-F020D5122B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DDD080-A4D8-4098-861D-F020D5122B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DDD080-A4D8-4098-861D-F020D5122B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A3624E-3730-4D66-A06A-FBC51817A0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A3624E-3730-4D66-A06A-FBC51817A0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A3624E-3730-4D66-A06A-FBC51817A0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A3624E-3730-4D66-A06A-FBC51817A0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C28522D-976D-4F7D-88A0-02C0416A4EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C28522D-976D-4F7D-88A0-02C0416A4EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C28522D-976D-4F7D-88A0-02C0416A4EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C28522D-976D-4F7D-88A0-02C0416A4EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B727A74-2394-40EE-B487-86927D8543BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B727A74-2394-40EE-B487-86927D8543BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B727A74-2394-40EE-B487-86927D8543BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B727A74-2394-40EE-B487-86927D8543BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282A06A9-18C9-46B0-8069-857162FB9143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282A06A9-18C9-46B0-8069-857162FB9143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282A06A9-18C9-46B0-8069-857162FB9143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282A06A9-18C9-46B0-8069-857162FB9143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05510167-AB3C-45AC-8A9E-2CC65B21ED93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05510167-AB3C-45AC-8A9E-2CC65B21ED93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05510167-AB3C-45AC-8A9E-2CC65B21ED93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05510167-AB3C-45AC-8A9E-2CC65B21ED93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14444C6B-C447-43F7-A7F1-AE10CC8E148F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14444C6B-C447-43F7-A7F1-AE10CC8E148F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14444C6B-C447-43F7-A7F1-AE10CC8E148F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14444C6B-C447-43F7-A7F1-AE10CC8E148F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
