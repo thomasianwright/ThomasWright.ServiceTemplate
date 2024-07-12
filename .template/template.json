@@ -13,5 +13,7 @@
     "language": "C#",
     "type": "solution"
   },
-  "shortName": "tw-svc-template"
+  "shortName": "tw-svc-template",
+  "defaultName": "ThomasWright.ServiceTemplate",
+  "preferDefaultName": false
 }
