@@ -9,9 +9,9 @@
   "sourceName": "ThomasWright.ServiceTemplate",
   "preferNameDirectory": true,
   "identity": "ThomasWright.ServiceTemplate",
-  "tags": [
-    "Service",
-    "Template"
-  ],
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
   "shortName": "tw-svc-template"
 }
